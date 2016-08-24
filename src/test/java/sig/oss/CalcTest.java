@@ -20,4 +20,10 @@ public class CalcTest {
 		Calc c = new Calc();
 		assertEquals(200, c.mul(10, 20));
 	}
+
+	@Test
+	public void testMul2() {
+		Calc c = new Calc();
+		assertEquals(200, c.mul(10, 20));
+	}
 }
