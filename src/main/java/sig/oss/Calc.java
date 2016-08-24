@@ -7,7 +7,7 @@ public class Calc {
 		return x-y;
 	}
 
-	public int mul(int x, int y){//multiplication method
+	public int mul(int x, int y){//multiplication method 2
 		return x*y;
 	}
 }
