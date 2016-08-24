@@ -1,5 +1,8 @@
 public class Calc {
-	public int add(int x,int y){//add method
+	
+	private int r = 0;
+	
+	public int add(int x, int y){//add method
 		return x+y;
 	}
 
@@ -9,5 +12,9 @@ public class Calc {
 
 	public int mul(int x, int y){//multiplication method 1 2
 		return x*y;
+	}
+	
+	public void dec(int d){ //add method
+		r = r-d;
 	}
 }
