@@ -12,7 +12,12 @@ public class CalcTest {
 	@Test
 	public void testSub() {
 		Calc c = new Calc();
-		assertEquals(30, c.sub(10, 20));
+		assertEquals(-10, c.sub(10, 20));
 	}
-}
+
+	@Test
+	public void testMul() {
+		Calc c = new Calc();
+		assertEquals(200, c.mul(10, 20));
+	}
 }
