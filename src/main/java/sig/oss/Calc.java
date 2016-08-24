@@ -14,7 +14,13 @@ public class Calc {
 		return x*y;
 	}
 
+
 	public void inc(int x){
 		r = r-x;
 	}
+	
+	public void dec(int d){ //add method
+		r = r-d;
+	}
 }
+
